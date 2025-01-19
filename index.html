@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD Projekt Red</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="p-3 navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <div class="logo d-flex align-items-center justify-content-start">
+                <img src="/public/CD logo.jpg" alt="">
+            </div>
+            <button class="navbar-toggler">
+                <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu-navegacao"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#noticias">
+                            <i class="bi bi-newspaper me-1"></i>
+                            Noticias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#jogos">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="w-100" src="/public/slides/Slide1.jpg" alt="Logo da empresa">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="/public/slides/Slide2.jpg" alt="Cyberpunk 2077">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="/public/slides/slide3.jpg" alt="Geralt The Witcher proganista">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="/public/slides/slide4.png" alt="Cyberpunk 2077 DLC">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="w-100" src="/public/slides/slide5.jpg" alt="The Witcher 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pb-5 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/public/sede2.jpg" alt="Foto da Empresa Sede" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="fw-bold mb-4 font">Sobre a <span class="text-colored">CD Projekt Red</span></h2>
+                            <p class="text-justify">A CD Projekt Red é uma empresa polonesa de desenvolvimento de jogos eletrônicos sediada em Varsóvia. Fundada em maio de 2002 por Marcin Iwiński e Michał Kiciński, a empresa é mais conhecida por desenvolver a série de jogos The Witcher, que é baseada na série de livros de mesmo nome escrita por Andrzej Sapkowski. A empresa também é conhecida por desenvolver o jogo Cyberpunk 2077, que foi lançado em dezembro de 2020.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="noticias" class="pb-5 pt-5" >
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold mb-3 font">Fique por dentro das nossas <span class="text-colored">Novidades!</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="/public/noticias/The witcher 4.webp" alt="Noticia 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Novo trailer de The Witcher 4 com Siri</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et aspernatur facere odit voluptatibu
+                                </p>
+                                <a href="#" class="btn btn-danger">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="/public/noticias/Gwent fh.jpg" alt="Noticia 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Gwent, novos baralhos já estão sendo lançados</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et aspernatur facere odit voluptatibu
+                                </p>
+                                <a href="#" class="btn btn-danger">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="/public/noticias/att cyber.webp" alt="Noticia 1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Update 2.2 de Cyberpunk 2077</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et aspernatur facere odit voluptatibu
+                                </p>
+                                <a href="#" class="btn btn-danger">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="jogos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold font mb-3">Nossas <span class="text-colored">Franquias</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button data-bs-toggle="tab" data-bs-target="#the-witcher" class="fw-bold text-start nav-link text-colored active"  type="button">The Witcher</button>
+                            <button data-bs-toggle="tab" data-bs-target="#cyberpunk" class="fw-bold text-start nav-link text-colored "  type="button">Cyberpunk</button>
+                            <button data-bs-toggle="tab" data-bs-target="#outros" class="fw-bold text-start nav-link text-colored "  type="button">Outros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="the-witcher">
+                                <div class="row">
+                                    <div class="col-md-3 mb-4">
+                                        <div class="card">
+                                            <img class="d-block w-100 rounded-top" src="/public/jogos/The Witcher.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Witcher:</h5>
+                                                <p class="card-subtitle">Enhanced Edition</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="card">
+                                            <img class="d-block w-100 rounded-top" src="/public/jogos/the witcher 2.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Witcher 2:</h5>
+                                                <p class="card-subtitle">Assassins of Kings</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-4">
+                                        <div class="card">
+                                            <img class="d-block w-100 rounded-top" src="/public/jogos/The witcher 3.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Witcher 3:</h5>
+                                                <p class="card-subtitle">Wild Hunt</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="cyberpunk">
+                            <div class="row">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card">
+                                        <img class="d-block w-100 rounded-top" src="/public/jogos/cyberpunk.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Cyberpunk 2077</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="outros">
+                            <div class="row">
+                                <div class="col-md-3 mb-4">
+                                    <div class="card">
+                                        <img class="d-block w-100 rounded-top" src="/public/jogos/gwent game.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Gwent</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="card">
+                                        <img class="d-block w-100 rounded-top" src="/public/jogos/hollow.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Drake Hollow</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="card">
+                                        <img class="d-block w-100 rounded-top" src="/public/jogos/Thronebreker.jpg" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Thronebreker</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center font">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="">Seu Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="">Seu E-mail</label>
+                                <input type="text" class="form-control" placeholder="Digite seu e-mail...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="">Seu Telefone</label>
+                                <input type="text" class="form-control" placeholder="Digite seu telefone...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="">Sua Mensagem</label>
+                                <textarea class="form-control pb-5" name="" id="mensagem" placeholder="Escreva sua mensagem..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
