@@ -76,3 +76,13 @@ footer a {
     color: red;
 }
 
+@media (max-width: 768px) {
+    header .logo img {
+        height: 50px;
+    }
+
+    #jogos aside {
+        margin-bottom: 20px;
+    }
+}
+
