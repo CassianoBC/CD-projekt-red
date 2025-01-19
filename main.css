@@ -53,3 +53,22 @@ header .logo img {
 #mensagem {
     resize: none;
 }
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a,
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer a {
+    color: white;
+}
+
